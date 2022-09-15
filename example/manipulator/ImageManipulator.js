@@ -457,7 +457,6 @@ class ExpoImageManipulator extends Component {
                         <AutoHeightImage
                             style={{ backgroundColor: 'black' }}
                             source={{ uri }}
-                            resizeMode={imageRatio >= 1 ? 'contain' : 'contain'}
                             width={width}
                             height={originalHeight}
                             // onLayout={this.calculateMaxSizes}
